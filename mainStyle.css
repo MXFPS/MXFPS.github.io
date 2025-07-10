@@ -3,19 +3,18 @@ font-family: CartoonFont;
 src: url(Patrick_Hand/PatrickHand-Regular.ttf);
  }
 body {
-  background-color: rgb(42, 56, 44);
+  background-color: rgb(0, 154, 15);
   background-image: url(pattern.png);
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
-/* Default: Mobile-first approach - fill height, no vertical looping */
+/* Default: Mobile - ensure image covers top and bottom (full height) */
 body {
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: auto 100%;
 }
 
-/* Medium screens and up: Fill width, no horizontal looping */
+/* Desktop: ensure image covers left and right (full width) */
 @media (min-width: 768px) {
   body {
     background-size: 100% auto;
