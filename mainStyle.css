@@ -2,6 +2,12 @@
 font-family: CartoonFont;
 src: url(Patrick_Hand/PatrickHand-Regular.ttf);
  }
+body {
+    background-color: rgb(0, 154, 15);
+    background-image: url(pattern.png);
+    background-size: 100%, 100%;
+    background-position: 50%, 50%;
+}
 h1 {
 font-family: CartoonFont;
 font-size: 64px;
