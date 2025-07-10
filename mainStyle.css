@@ -11,12 +11,12 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  /* Default: Mobile - stretch image to fit exactly top to bottom */
+  /* Default: Portrait (mobile) - stretch image to fit exactly top to bottom */
   background-size: 100% 100%;
 }
 
-/* Desktop: ensure image covers left and right (full width) */
-@media (min-width: 768px) {
+/* Landscape (desktop/tablet) - ensure image covers left and right */
+@media (orientation: landscape) {
   body {
     background-size: 100% auto;
   }
