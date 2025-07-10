@@ -5,19 +5,20 @@ src: url(Patrick_Hand/PatrickHand-Regular.ttf);
 body {
   background-color: rgb(0, 154, 15);
   background-image: url(pattern.png);
-  background-position: 50% 50%;
+  background-position: center center;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 /* Default: Mobile - ensure image covers top and bottom (full height) */
 body {
-  background-size: auto 100%;
+  background-size: auto 100vh;
 }
 
 /* Desktop: ensure image covers left and right (full width) */
 @media (min-width: 768px) {
   body {
-    background-size: 100% auto;
+    background-size: 100vw auto;
   }
 }
 
