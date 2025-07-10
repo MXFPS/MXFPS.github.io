@@ -1,63 +1,70 @@
 @font-face {
-font-family: CartoonFont;
-src: url(Patrick_Hand/PatrickHand-Regular.ttf);
- }
+  font-family: CartoonFont;
+  src: url(Patrick_Hand/PatrickHand-Regular.ttf);
+}
+
 body {
-  background-color: rgb(0, 154, 15);
+  background-color: rgb(64, 56, 44);
   background-image: url(pattern.png);
   background-position: center center;
   background-repeat: no-repeat;
   min-height: 100vh;
-}
-
-/* Default: Mobile - ensure image covers top and bottom (full height) */
-body {
-  background-size: auto 100vh;
+  margin: 0;
+  padding: 0;
+  /* Default: Mobile - stretch image to fit exactly top to bottom */
+  background-size: 100% 100%;
 }
 
 /* Desktop: ensure image covers left and right (full width) */
 @media (min-width: 768px) {
   body {
-    background-size: 100vw auto;
+    background-size: 100% auto;
   }
 }
 
 h1 {
-font-family: CartoonFont;
-font-size: 64px;
- }
+  font-family: CartoonFont;
+  font-size: 64px;
+}
+
 h2 {
-font-family: CartoonFont;
-color: #ffffff;
-font-size: 48px;
-text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(0, 0, 0, 0.4);
- }
+  font-family: CartoonFont;
+  color: #ffffff;
+  font-size: 48px;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
 h4 {
-font-family: CartoonFont;
-color: #f3f3f3;
-font-size: 32px;
-text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(0, 0, 0, 0.4);
- }
+  font-family: CartoonFont;
+  color: #f3f3f3;
+  font-size: 32px;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
 a {
-font-family: CartoonFont;
- }
+  font-family: CartoonFont;
+}
+
 .header {
-display: flex;
-align-items: center;
-padding: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
+
 .nav-links {
-display: flex;
-flex: 1;
-justify-content: space-evenly;
-margin-left: 30px;
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  margin-left: 30px;
 }
+
 .nav-links a {
-color: rgb(0, 200, 255);
-text-decoration: none;
-font-size: 64px;
-text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9), 3px 3px 15px rgba(0, 0, 0, 0.8), -3px -3px 15px rgba(0, 0, 0, 0.8);
+  color: rgb(0, 200, 255);
+  text-decoration: none;
+  font-size: 64px;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9), 3px 3px 15px rgba(0, 0, 0, 0.8), -3px -3px 15px rgba(0, 0, 0, 0.8);
 }
+
 .nav-links a:hover {
-color: #8B4513;
+  color: #8B4513;
 }
