@@ -1,0 +1,13 @@
+# Toy Town Mayhem item numbers. Changes here apply the next time players load into a lobby.
+# One per line: PrefabName.Field = number. Anything not listed keeps the number in the game.
+# Remove the # in front of a line to change it. These are the current numbers:
+# punchDMG.Damage = 15
+# ShotgunDMG-bullets.Damage = 67
+ARDMG-bullets.Damage = 12
+# ARDMG-bullets.HeadShotMultiplier = 13
+# SnipperDMG-bullets.Damage = 75
+# SnipperDMG-bullets.HeadShotMultiplier = 15
+# dumbellpunchDMG.Damage = 41
+Explosion.Damage = 100
+Stalker.Damage = 60
+Stalker.SprintMultiplier = 1.08

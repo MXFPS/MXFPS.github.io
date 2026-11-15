@@ -1,0 +1,8 @@
+# Toy Town Mayhem maps. Turns maps off in the create-room list; applies the next time someone opens that menu.
+# One map per line: Map Name = off   (or = on). Any map not listed stays on.
+# Remove the # in front of a line to use it. For a Battle Royale weekend, turn off the Free for All maps.
+# Mega Map = off
+# Cheese Room = off
+# Floating Plains = off
+# Block World = off
+# The Backrooms = off
