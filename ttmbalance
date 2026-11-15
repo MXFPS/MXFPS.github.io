@@ -19,5 +19,5 @@ Stalker.SprintMultiplier = 1.08
 # Weekend event numbers (ttmevent turns the events on)
 # Event.MoonGravity = 0.45
 # Event.MoonJump = 1.1
-# Event.TinySize = 0.5
+Event.TinySize = 0.6
 # Event.PillowKnockback = 3
