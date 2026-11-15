@@ -1,0 +1,11 @@
+# Toy Town Mayhem Battle Royale lootpool
+# How likely each item is: bigger = more common, 0 = never, 10 = this only.
+Shotgun = 6
+AR = 2
+Sniper = 3
+Dumbbell = 6
+Bomb = 2
+HotDog = 4
+Pizza = 2
+# Example, a Booms are VERY prominent:   Bomb = 9
+# Example, no snipers:       Sniper = 0

@@ -1,0 +1,8 @@
+# the 4 items everyone starts with
+# Items: Rifle, Shotgun, Bomb, HotDog, Pizza, Sniper, Dumbbell, None
+
+Slot1 = Sniper
+Slot2 = Shotgun
+Slot3 = Dumbbell
+Slot4 = Pizza
+# Example: Slot2 = Sniper
