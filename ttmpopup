@@ -1,0 +1,6 @@
+# A popup shown on the main menu. Each player sees it once, until you change the ID.
+# An empty ID shows nothing. \n in the Description starts a new line.
+ID =
+Title = Moon Bounce Weekend!
+Description = Low gravity on every map!\n\nEnds Sunday night.
+Button = LETS GOOO

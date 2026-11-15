@@ -1,0 +1,8 @@
+# Toy Town Mayhem weekend events. Applies when a map loads; everyone in a room uses the host's events.
+
+#   MoonBounce   - low gravity, floaty jumps
+#   TinyTown     - everyone is small (the Backrooms' monster stays full size)
+#   PillowFight  - fists only, punches shove people much further
+# (example for multiple events) Event = TinyTown, PillowFight
+
+Event = none

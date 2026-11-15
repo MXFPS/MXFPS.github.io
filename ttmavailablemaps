@@ -1,6 +1,4 @@
-# Toy Town Mayhem maps. Turns maps off in the create-room list; applies the next time someone opens that menu.
-# One map per line: Map Name = off   (or = on). Any map not listed stays on.
-# Remove the # in front of a line to use it. For a Battle Royale weekend, turn off the Free for All maps.
+# Uncomment to disable a map
 # Mega Map = off
 # Cheese Room = off
 # Floating Plains = off
@@ -8,23 +6,20 @@
 # The Backrooms = off
 
 # Bots. DefaultBots = how many bots a new room starts with, MaxBots = the most a host can pick.
-# For every map:   DefaultBots = 5   /   MaxBots = 9
-# For one map:     Mega Map.DefaultBots = 20   /   Mega Map.MaxBots = 200   (beats the every-map line)
-# Hundreds of bots is heavy for the host's computer and sends a lot of data (every bot's movement, to every player).
 # Steam rooms can go as high as MaxBots. Alteruna rooms (all Xbox players, crossplay) never go over AlterunaMaxBots,
-# 9 unless it's set here, because Alteruna has a monthly traffic limit.
-DefaultBots = 5
-MaxBots = 9
-# AlterunaMaxBots = 9
 
-# Each map's own numbers (these beat the two lines above). The monster in The Backrooms doesn't count toward these.
-Mega Map.DefaultBots = 5
-Mega Map.MaxBots = 9
-Cheese Room.DefaultBots = 5
-Cheese Room.MaxBots = 9
-Floating Plains.DefaultBots = 5
-Floating Plains.MaxBots = 9
-Block World.DefaultBots = 5
-Block World.MaxBots = 9
-The Backrooms.DefaultBots = 5
-The Backrooms.MaxBots = 300
+DefaultBots = 5
+MaxBots = 50
+AlterunaMaxBots = 9
+
+# Each map's own numbers which take priority
+# Mega Map.DefaultBots = 5
+# Mega Map.MaxBots = 50
+# Cheese Room.DefaultBots = 5
+# Cheese Room.MaxBots = 50
+# Floating Plains.DefaultBots = 5
+# Floating Plains.MaxBots = 50
+# Block World.DefaultBots = 5
+# Block World.MaxBots = 50
+# The Backrooms.DefaultBots = 5
+# The Backrooms.MaxBots = 50
