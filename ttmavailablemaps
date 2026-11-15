@@ -6,3 +6,14 @@
 # Floating Plains = off
 # Block World = off
 # The Backrooms = off
+
+# Bots. DefaultBots = how many bots a new room starts with, MaxBots = the most a host can pick.
+# For every map:   DefaultBots = 5   /   MaxBots = 9
+# For one map:     Mega Map.DefaultBots = 20   /   Mega Map.MaxBots = 200   (beats the every-map line)
+# Hundreds of bots is heavy for the host's computer and sends a lot of data (every bot's movement, to every player).
+# Steam rooms can go as high as MaxBots. Alteruna rooms (all Xbox players, crossplay) never go over AlterunaMaxBots,
+# 9 unless it's set here, because Alteruna has a monthly traffic limit.
+DefaultBots = 5
+MaxBots = 9
+# AlterunaMaxBots = 9
+# Mega Map.MaxBots = 200
