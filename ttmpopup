@@ -1,6 +1,6 @@
 # A popup shown on the main menu. Each player sees it once, until you change the ID.
 # An empty ID shows nothing. \n in the Description starts a new line.
-ID = 2
-Title = Battle Royale Promo!
-Description = Play Battle Royale Maps! (Or Backrooms)
-Button = OKEY DOKEY!
+ID = 3
+Title = Hey!
+Description = If you're enjoying the game\nBe sure to leave a review! :D
+Button = Thanks!

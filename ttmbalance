@@ -14,7 +14,7 @@ Explosion.Damage = 100
 # How many monsters the Backrooms has
 Stalker.Count = 1
 Stalker.Damage = 60
-Stalker.SprintMultiplier = 1.08
+Stalker.SprintMultiplier = 1.5
 
 # Weekend event numbers (ttmevent turns the events on)
 # Event.MoonGravity = 0.45
