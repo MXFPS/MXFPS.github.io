@@ -5,4 +5,4 @@
 #   PillowFight  - fists only, punches shove people much further
 # (example for multiple events) Event = TinyTown, PillowFight
 
-Event = TinyTown
+Event = None

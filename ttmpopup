@@ -1,6 +1,6 @@
 # A popup shown on the main menu. Each player sees it once, until you change the ID.
 # An empty ID shows nothing. \n in the Description starts a new line.
-ID = 1
-Title = Event!
-Description = Everyone is TINY!\n\nEnds Sunday night.
-Button = LETS GOOO
+ID = 2
+Title = Battle Royale Promo!
+Description = Play Battle Royale Maps! (Or Backrooms)
+Button = OKEY DOKEY!
