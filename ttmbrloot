@@ -2,7 +2,7 @@
 # How likely each item is: bigger = more common, 0 = never
 Shotgun = 6
 AR = 2
-Sniper = 3
+Sniper = 4
 Dumbbell = 6
 Bomb = 2
 HotDog = 4
